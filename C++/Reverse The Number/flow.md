@@ -10,14 +10,14 @@ The first line contains an integer **T**, total number of testcases. Then follow
 
 For each test case, display the reverse of the given number **N**, in a new line.
 
-### Constraints
+## Constraints
 
 1 ≤ **T** ≤ 1000  
 1 ≤ **N** ≤ 1000000
 
-#### Example
+### Example
 
-#### **Input**
+### **Input**
 
 4  
 12345  
@@ -25,7 +25,7 @@ For each test case, display the reverse of the given number **N**, in a new line
 2123  
 2300  
 
-##### **Output**
+### **Output**
 
 54321  
 30213  
