@@ -8,9 +8,7 @@ Teste Unitário:
 - EM DESENVOLVIMENTO...!
 
 ## Futuras alterações
-As soluções dentro da pasta Unknown precisam ser refeitas dentro do LeetCode:
+As soluções dentro da pasta codechef precisam ser refeitas dentro do Leet Code:
 - Lapindromes
 - Reverse The Number
 - Smart Phone
-
-Antes eram do CodeChef, mas lá não aceita mais C++ para esses problemas

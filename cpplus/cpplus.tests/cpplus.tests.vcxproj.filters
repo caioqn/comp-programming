@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="leetcode\easy\lapin_cases.cpp">
+    <ClCompile Include="leetcode\easy\ValidPalindrome_Cases.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

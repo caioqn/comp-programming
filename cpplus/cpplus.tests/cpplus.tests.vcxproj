@@ -158,7 +158,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="leetcode\easy\lapin_cases.cpp" />
+    <ClCompile Include="leetcode\easy\ValidPalindrome_Cases.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\cpplus.problemlibrary\cpplus.problemlibrary.vcxproj">

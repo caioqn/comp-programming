@@ -20,16 +20,16 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\unknown\Lapindromes\lapin.cpp">
+    <ClCompile Include="src\codechef\Lapindromes\lapin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\unknown\Reverse The Number\flow.cpp">
+    <ClCompile Include="src\codechef\Reverse The Number\flow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\generic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\unknown\Smart Phone\smart.cpp">
+    <ClCompile Include="src\codechef\Smart Phone\smart.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\leetcode\easy\Valid Palindrome\ValidPalindrome.cpp">
@@ -37,13 +37,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="src\unknown\Lapindromes\lapin.md">
+    <None Include="src\codechef\Lapindromes\lapin.md">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="src\unknown\Reverse The Number\flow.md">
+    <None Include="src\codechef\Reverse The Number\flow.md">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="src\unknown\Smart Phone\smart.md" />
+    <None Include="src\codechef\Smart Phone\smart.md" />
     <None Include="src\leetcode\easy\Valid Palindrome\ValidPalindrome.md" />
   </ItemGroup>
 </Project>
