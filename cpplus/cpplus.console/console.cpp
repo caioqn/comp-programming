@@ -3,6 +3,6 @@
 
 int main()
 {
-    flowrun();
+    lapinrun();
     return 0;
 }

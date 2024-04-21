@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../../include/lceasy.h"
+#include "lceasy.h"
 
 using namespace std;
 

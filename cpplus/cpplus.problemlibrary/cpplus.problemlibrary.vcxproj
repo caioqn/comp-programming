@@ -19,18 +19,20 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="leetcode\include\lceasy.h" />
+    <ClInclude Include="include\lceasy.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="leetcode\src\generic.cpp" />
-    <ClCompile Include="leetcode\src\Lapindromes\lapin.cpp" />
-    <ClCompile Include="leetcode\src\Reverse The Number\flow.cpp" />
-    <ClCompile Include="leetcode\src\Smart Phone\smart.cpp" />
+    <ClCompile Include="src\generic.cpp" />
+    <ClCompile Include="src\leetcode\easy\Valid Palindrome\ValidPalindrome.cpp" />
+    <ClCompile Include="src\unknown\Lapindromes\lapin.cpp" />
+    <ClCompile Include="src\unknown\Reverse The Number\flow.cpp" />
+    <ClCompile Include="src\unknown\Smart Phone\smart.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="leetcode\src\Lapindromes\lapin.md" />
-    <None Include="leetcode\src\Reverse The Number\flow.md" />
-    <None Include="leetcode\src\Smart Phone\smart.md" />
+    <None Include="src\leetcode\easy\Valid Palindrome\ValidPalindrome.md" />
+    <None Include="src\unknown\Lapindromes\lapin.md" />
+    <None Include="src\unknown\Reverse The Number\flow.md" />
+    <None Include="src\unknown\Smart Phone\smart.md" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -84,6 +86,12 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>..\cpplus.problemlibrary\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>..\cpplus.problemlibrary\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>

@@ -7,6 +7,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpplus.console", "cpplus.co
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpplus.problemlibrary", "cpplus.problemlibrary\cpplus.problemlibrary.vcxproj", "{F333A045-DF43-490F-9B7C-E0BA355EABBA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpplus.tests", "cpplus.tests\cpplus.tests.vcxproj", "{7880B7F7-E6FC-48DC-B782-57887EDF2EB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AEDF42CE-66BF-4F18-AC52-911E480401F4}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +38,14 @@ Global
 		{F333A045-DF43-490F-9B7C-E0BA355EABBA}.Release|x64.Build.0 = Release|x64
 		{F333A045-DF43-490F-9B7C-E0BA355EABBA}.Release|x86.ActiveCfg = Release|Win32
 		{F333A045-DF43-490F-9B7C-E0BA355EABBA}.Release|x86.Build.0 = Release|Win32
+		{7880B7F7-E6FC-48DC-B782-57887EDF2EB6}.Debug|x64.ActiveCfg = Debug|x64
+		{7880B7F7-E6FC-48DC-B782-57887EDF2EB6}.Debug|x64.Build.0 = Debug|x64
+		{7880B7F7-E6FC-48DC-B782-57887EDF2EB6}.Debug|x86.ActiveCfg = Debug|Win32
+		{7880B7F7-E6FC-48DC-B782-57887EDF2EB6}.Debug|x86.Build.0 = Debug|Win32
+		{7880B7F7-E6FC-48DC-B782-57887EDF2EB6}.Release|x64.ActiveCfg = Release|x64
+		{7880B7F7-E6FC-48DC-B782-57887EDF2EB6}.Release|x64.Build.0 = Release|x64
+		{7880B7F7-E6FC-48DC-B782-57887EDF2EB6}.Release|x86.ActiveCfg = Release|Win32
+		{7880B7F7-E6FC-48DC-B782-57887EDF2EB6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

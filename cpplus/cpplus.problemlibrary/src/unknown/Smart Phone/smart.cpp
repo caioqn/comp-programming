@@ -3,6 +3,7 @@
 #include <vector>
 #include <cmath>
 #include <algorithm>
+#include "lceasy.h"
 
 using namespace std;
 
@@ -31,6 +32,4 @@ void smartrun()
     }
 
     cout << ans;
-    
-    return 0;
 }
