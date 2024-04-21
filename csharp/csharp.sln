@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp.tests", "csharp.tests\csharp.tests.csproj", "{B16F0142-8294-40DE-A816-C4AD114F07A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csharp.tests", "csharp.tests\csharp.tests.csproj", "{B16F0142-8294-40DE-A816-C4AD114F07A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp.console", "csharp.console\csharp.console.csproj", "{50256988-15E7-44C8-8B97-0B57292EF967}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csharp.console", "csharp.console\csharp.console.csproj", "{50256988-15E7-44C8-8B97-0B57292EF967}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp.problemlibrary", "csharp.problemlibrary\csharp.problemlibrary.csproj", "{D8181A88-9687-44FE-8601-89F93DC31219}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csharp.problemlibrary", "csharp.problemlibrary\csharp.problemlibrary.csproj", "{D8181A88-9687-44FE-8601-89F93DC31219}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4680A63B-6217-481C-AFA2-2DD477BF7706}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
