@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include "../../include/lceasy.h"
 
 using namespace std;
 
@@ -27,7 +27,7 @@ bool comparador(string primeira, string segunda)
     return true;
 }
 
-int main()
+void lapinrun()
 {
     int T;
     cin >> T;

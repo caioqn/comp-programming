@@ -1,8 +1,9 @@
 #include <iostream>
+#include "../../include/lceasy.h"
 
 using namespace std;
 
-int main()
+void flowrun()
 {
 	int T;
 	cin >> T;
