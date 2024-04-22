@@ -6,10 +6,13 @@ namespace csharp.console
     {
         static void Main(string[] args)
         {
-            var input = Console.ReadLine() ?? throw new ArgumentException("Argumentos do console inválidos!!");
+            // var input = Console.ReadLine() ?? throw new ArgumentException("Argumentos do console inválidos!!");
             // var inputList = new List<string>() { "()", "()[]{}" };
 
-            var response = ValidParentheses.IsValidGPT(input);
+            int[] nums = [2, 7, 11, 15];
+            var target = 9;
+
+            var response = TwoSum.Resolution(nums, target);
 
             Console.WriteLine(response);
 

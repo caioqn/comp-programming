@@ -3,6 +3,6 @@
 
 int main()
 {
-    lapinrun();
+    TwoSumRun();
     return 0;
 }

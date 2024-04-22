@@ -35,6 +35,9 @@
     <ClCompile Include="src\leetcode\easy\Valid Palindrome\ValidPalindrome.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\leetcode\easy\Two Sum\TwoSum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\codechef\Lapindromes\lapin.md">
@@ -45,5 +48,7 @@
     </None>
     <None Include="src\codechef\Smart Phone\smart.md" />
     <None Include="src\leetcode\easy\Valid Palindrome\ValidPalindrome.md" />
+    <None Include="src\leetcode\easy\Two Sum\TwoSum.md" />
+    <None Include="src\generic.md" />
   </ItemGroup>
 </Project>
